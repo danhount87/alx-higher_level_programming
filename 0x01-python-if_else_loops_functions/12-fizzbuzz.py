@@ -2,6 +2,7 @@
 # zinzinpolice
 """Print the numbers from 1 to 100 separated by a space."""
 
+
 def fizzbuzz():
     for number in range(1, 101):
         if number % 3 == 0 and number % 5 == 0:
