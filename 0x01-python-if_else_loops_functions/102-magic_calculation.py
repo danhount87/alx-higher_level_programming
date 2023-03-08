@@ -7,5 +7,7 @@ def magic_calculation(a, b, c):
     the following Python bytecode:"""
     if a < b:
         return (c)
-    if c > b:
-        return (a + b)
+    else:
+        if c > b:
+            return (a + b)
+        return (a * b) -
