@@ -2,6 +2,8 @@
 # zinzinpolice
 
 if __name__ == "__main__":
+    """a program that imports the function from
+    a file and prints the result"""
     from add_0 import add
 
     a = 1
