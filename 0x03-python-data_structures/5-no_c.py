@@ -3,5 +3,5 @@
 
 def no_c(my_string):
     '''function that removes all characters c and C from a string.'''
-    cop = [x for x in my_string if x != 'c' or x != 'C']
-    return ("".join(cop))
+    cop = my_string.translate({ord(i): None for i in 'cC'})
+    return (cop)
