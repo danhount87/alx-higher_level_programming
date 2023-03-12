@@ -8,6 +8,6 @@ def divisible_by_2(my_list=[]):
         if my_list[j] % 2 == 0:
             muples.append(True)
         else:
-            mples.append(False)
+            muples.append(False)
 
     return (muples)
