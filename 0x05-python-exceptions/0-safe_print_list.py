@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 #zinzinpolice
+
 def safe_print_list(my_list=[], x=0):
     sat = 0
     while True:
